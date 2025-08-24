@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node (if you add later)
+node_modules/
+
+# Secrets (never commit!)
+*.env
+secrets/
+# common secret JSON names (edit as needed)
+service-account.json
+credentials.json
+*.credentials.json
