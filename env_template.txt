@@ -1,0 +1,12 @@
+# Amazon SP API Credentials
+# Copy this file to .env and fill in your actual credentials
+# Get these from your Amazon Seller Central account
+
+LWA_REFRESH_TOKEN=your_refresh_token_here
+LWA_CLIENT_ID=your_client_id_here
+LWA_CLIENT_SECRET=your_client_secret_here
+
+# Optional Configuration
+SP_API_REGION=US
+SP_API_RATE_DELAY_SEC=1.2
+SP_API_MAX_RETRIES=4
